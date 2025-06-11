@@ -8,6 +8,7 @@
 
     <!-- CSS External -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -34,7 +35,9 @@
             <p>My name is Yama Roni, and I am a Senior Frontend Developer.</p>
 
             <!-- Banner Section -->
-            <div class="banner-img"></div>
+            <div class="banner-img img-1"></div>
+            <div class="banner-img img-2"></div>
+            <div class="banner-img img-3"></div>
         </section>
 
         <hr />
@@ -52,7 +55,16 @@
             <h1>Message Us</h1>
             <p>If you have any questions, feel free to reach out!</p>
 
-            <form></form>
+            <form>
+                <div>
+                    <label for="name-input">Name:</label>
+                    <input type="text" id="name-input">
+                </div>
+
+                <div>
+                    <button onclick="validateForm();" type="button">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
 
@@ -60,6 +72,9 @@
     <footer>
         <p>&copy; 2025 Yama Roni. All rights reserved.</p>
     </footer>
+
+    <!-- JS External -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -33,9 +33,20 @@ section {
 
 .banner-img {
     height: 350px;
-    background-image: url(https://picsum.photos/750);
     background-size: cover;
     background-position: center;
+}
+
+.img-1 {
+    background-image: url(../assets/1.jpg);
+}
+
+.img-2 {
+    background-image: url(../assets/2.jpg);
+}
+
+.img-3 {
+    background-image: url(../assets/3.png);
 }
 
 /* Footer Component */
